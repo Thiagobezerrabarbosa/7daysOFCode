@@ -1,0 +1,33 @@
+@import url(nav.css);
+
+:root {
+    --branco-base: #FFFFFF;
+    --cinza-base: #667085;
+    --vermelho: #8E2424;
+    --preto-base: #101828;
+    --fonte-principal: "Inter";
+}
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: auto;
+    height: 80px;
+
+}
+
+body {
+    background-color: var(--branco-base);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+

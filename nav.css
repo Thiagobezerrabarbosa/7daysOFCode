@@ -1,0 +1,42 @@
+.botão__base{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    font-size: 18px;
+    color: #3A404E;
+    background-color: var(--branco-base);
+    border: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.botão {
+    margin: 0.8rem;
+    background-color: var(--branco-base);
+    border: none;
+    cursor: pointer;
+}
+
+.logo__transparente {
+    width: 142px;
+    height: 32px;
+}
+
+.botão__item-cadastro {
+    background-color: var(--vermelho);
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    color: var(--branco-base);  
+}
+
+.botão__hover:hover {
+    transform: scale(1.2);
+}
