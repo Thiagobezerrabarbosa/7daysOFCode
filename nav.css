@@ -1,3 +1,7 @@
+.navegação button {
+    color: var(--cinza-base);
+}
+
 .botão__base{
     display: flex;
     flex-direction: row;
@@ -28,6 +32,10 @@
 .logo__transparente {
     width: 142px;
     height: 32px;
+}
+
+.botão__entrar {
+    color: var(--cinza-base);
 }
 
 .botão__item-cadastro {

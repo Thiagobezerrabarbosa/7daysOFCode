@@ -1,0 +1,27 @@
+.referencia {
+    display: flex;  
+    margin: 2% 7% 8% 7%;
+}
+
+.referencia__itens {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.referencia__numeros { 
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 60px;    
+}
+
+.referencia__titulo {
+    font-size: 18px;
+    color: var(--preto-base);   
+    margin: 2rem 0 1rem;    
+}
+
+.referencia__texto {
+    font-weight: 400;
+    color: var(--cinza-base);
+}

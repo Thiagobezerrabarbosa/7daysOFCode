@@ -1,0 +1,64 @@
+.descrição {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Vagas {
+    text-align: center;
+    color: var(--vermelho);
+    background: rgba(142, 36, 36, 0.05);
+    width: 15%;
+    margin: 0 0 2rem 40%;
+    padding: 1rem;
+    border-radius: 15%;
+    
+}
+
+.talentos__titulo {
+    color: var(--preto-base);
+    font-size: 34px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.equipe {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-base);
+    text-align: center;
+}
+.imagem {
+   margin: 4rem;
+}
+
+.área-vaga{
+    margin: 1rem 30%;
+    font-size: 20px;
+    color: var(--preto-base);
+}
+
+.vaga {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 33%;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    
+}
+
+.titulo-vaga {
+    margin: 1rem 0;
+    font-size: 18px;
+    color: var(--preto-base);
+}
+
+.informacoes {
+    padding: 1rem 0;
+    color: var(--cinza-base);
+}
+
+.salario {
+    margin-left: 1rem;
+}

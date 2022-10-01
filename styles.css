@@ -1,4 +1,7 @@
 @import url(nav.css);
+@import url(cabecalho.css);
+@import url(referencia.css);
+@import url(Vagas.css);
 
 :root {
     --branco-base: #FFFFFF;
