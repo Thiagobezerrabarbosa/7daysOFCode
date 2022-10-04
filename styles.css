@@ -2,6 +2,7 @@
 @import url(cabecalho.css);
 @import url(referencia.css);
 @import url(Vagas.css);
+@import url(footer.css);
 
 :root {
     --branco-base: #FFFFFF;
